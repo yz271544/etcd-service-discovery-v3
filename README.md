@@ -1,5 +1,5 @@
 # etcd-service-discovery
-daizuozhuo.github.io/etcd-service-discovery/
+yz271544.github.io/etcd-service-discovery/
 
 ### Build
 1. Install Golang: sudo yum install golang
