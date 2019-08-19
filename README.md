@@ -6,7 +6,7 @@ yz271544.github.io/etcd-service-discovery/
 2. mkdir $HOME/Go
 3. add environment variable to ~/.bashrc `export GOPATH=$HOME/Go` `export PATH=$HOME/Go/bin:$PATH`,
 reload it `source ~/.bashrc`
-4. put the project inside $HOME/Go/src/github.com/daizuozhuo/
+4. put the project inside $HOME/Go/src/github.com/yz271544/
 5. `go get github.com/tools/godep`
 6. `godep restore`
 7. `cd etcd-service-discovery/exmaple"
