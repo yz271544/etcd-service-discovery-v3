@@ -11,6 +11,7 @@ require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/gogo/protobuf v1.2.1 // indirect
 	github.com/golang/groupcache v0.0.0-20190702054246-869f871628b6 // indirect
+	github.com/golang/protobuf v1.3.2
 	github.com/gorilla/websocket v1.4.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.0.0 // indirect
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
@@ -24,8 +25,11 @@ require (
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	go.etcd.io/bbolt v1.3.3 // indirect
+	go.uber.org/atomic v1.4.0 // indirect
+	go.uber.org/multierr v1.1.0 // indirect
 	go.uber.org/zap v0.0.0-00010101000000-000000000000 // indirect
 	golang.org/x/net v0.0.0-20190628185345-da137c7871d7
+	google.golang.org/grpc v1.21.1
 	gopkg.in/yaml.v2 v2.2.2 // indirect
 )
 
@@ -48,6 +52,6 @@ replace (
 	google.golang.org/api => github.com/googleapis/google-api-go-client v0.7.0
 	google.golang.org/appengine => github.com/golang/appengine v1.6.1
 	google.golang.org/genproto => github.com/google/go-genproto v0.0.0-20190716160619-c506a9f90610
-	google.golang.org/grpc => github.com/grpc/grpc-go v1.22.0
+	google.golang.org/grpc => github.com/grpc/grpc-go v1.23.0
 	honnef.co/go/tools => github.com/dominikh/go-tools v0.0.0-20190614002413-cb51c254f01b // indirect
 )
